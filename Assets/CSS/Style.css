@@ -1,0 +1,68 @@
+:root{
+    --primary-color:rgba(22, 21, 21, 0.863) ;
+    --primary-color-darker:grey ;
+}
+* {
+box-sizing: border-box;
+outline: 0;
+
+}
+label{
+    font-size: large;
+}
+html{
+    background-color: rgb(22, 21, 21);
+}
+body{
+    background: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    color: gold;
+}
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: gray;
+    padding: 20px;
+    border-radius:10px ;
+   
+}
+form input,form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding:0 20px ;
+    color: gold;
+    background:black;
+}
+form input:focus{
+outline:1px var(--primary-color);
+}
+form button:focus{
+    border: none;
+    background:rgb(243, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+}
+form button:hover{
+    background: var(--primary-color-darker);
+    color: gold;
+}
+form button :active{
+    background: red;
+    
+}
+.paragrafo-resultado, .bad{
+    background: rgb(136, 34, 239);
+    padding: 10px 20px;
+    
+}
+.bad{
+    background: rgb(231, 92, 92);
+}
+
